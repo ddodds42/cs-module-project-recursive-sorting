@@ -13,7 +13,7 @@ def merge_sort(arr):
     # if list has two sub lists
         # run the merge and return the merged list
     # if the list has no sub lists
-        # it's virgin. Split that fucker
+        # it's virgin. Split it
         # run a merge
         # return merge(merged_list)
     # if the list has more than two sub-lists
