@@ -10,7 +10,15 @@ def merge(arrA, arrB):
 
 # TO-DO: implement the Merge Sort function below recursively
 def merge_sort(arr):
-    # Your code here
+    # if list has two sub lists
+        # run the merge and return the merged list
+    # if the list has no sub lists
+        # it's virgin. Split that fucker
+        # run a merge
+        # return merge(merged_list)
+    # if the list has more than two sub-lists
+        # merge neighbors
+        # return merge(merged_list)
 
 
     return arr
@@ -20,9 +28,9 @@ def merge_sort(arr):
 # In other words, your implementation should not allocate any additional lists 
 # or data structures; it can only re-use the memory it was given as input
 def merge_in_place(arr, start, mid, end):
-    # Your code here
+    pass
 
 
 def merge_sort_in_place(arr, l, r):
-    # Your code here
+    pass
 
